@@ -1,0 +1,19 @@
+fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=read -bs=256K -size=1G -numjobs=1 -group_reporting -name=256k-seq-r | tee -a 256k-seq-r.txt
+
+fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=read -bs=512K -size=1G -numjobs=1 -group_reporting -name=512k-seq-r | tee -a 512k-seq-r.txt
+
+fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=read -bs=1M -size=1G -numjobs=1 -group_reporting -name=1M-seq-r | tee -a 1M-seq-r.txt
+
+fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=read -bs=4M -size=1G -numjobs=1 -group_reporting -name=4M-seq-r | tee -a 4M-seq-r.txt
+
+fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=read -bs=16M -size=1G -numjobs=1 -group_reporting -name=16M-seq-r | tee -a 16M-seq-r.txt
+
+fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=read -bs=32M -size=1G -numjobs=1 -group_reporting -name=32M-seq-r | tee -a 32M-seq-r.txt
+
+fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=read -bs=64M -size=1G -numjobs=1 -group_reporting -name=64M-seq-r | tee -a 64M-seq-r.txt
+
+fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=read -bs=128M -size=1G -numjobs=1 -group_reporting -name=128M-seq-r | tee -a 128M-seq-r.txt
+
+fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=read -bs=256M -size=1G -numjobs=1 -group_reporting -name=256M-seq-r | tee -a 256M-seq-r.txt
+
+fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=read -bs=512M -size=1G -numjobs=1 -group_reporting -name=512M-seq-r | tee -a 512M-seq-r.txt

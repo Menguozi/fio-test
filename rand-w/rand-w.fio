@@ -1,0 +1,11 @@
+fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=randwrite -bs=4K -size=64M -numjobs=1 -group_reporting -name=4k-rand-w | tee -a 4k-rand-w.txt
+
+fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=randwrite -bs=8K -size=64M -numjobs=1 -group_reporting -name=8k-rand-w | tee -a 8k-rand-w.txt
+
+fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=randwrite -bs=16K -size=64M -numjobs=1 -group_reporting -name=16k-rand-w | tee -a 16k-rand-w.txt
+
+fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=randwrite -bs=32k -size=64M -numjobs=1 -group_reporting -name=32k-rand-w | tee -a 32k-rand-w.txt
+
+fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=randwrite -bs=64k -size=64M -numjobs=1 -group_reporting -name=64k-rand-w | tee -a 64k-rand-w.txt
+
+fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=randwrite -bs=128k -size=64M -numjobs=1 -group_reporting -name=128k-rand-w | tee -a 128k-rand-w.txt
