@@ -1,13 +1,13 @@
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=randrw -bs=8k -size=64M -rwmixread=100 -numjobs=1 -group_reporting -name=8k-rand-r100w0 | tee -a 8k-rand-r100w0.txt
+fio -filename=/data/data/8k-rand-r100w0 -direct=1 -ioengine=psync -rw=randrw -bs=8k -size=64M -rwmixread=100 -numjobs=1 -group_reporting -name=8k-rand-r100w0 | tee -a 8k-rand-r100w0.txt
 
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=randrw -bs=8k -size=64M -rwmixread=95 -numjobs=1 -group_reporting -name=8k-rand-r95w5 | tee -a 8k-rand-r95w5.txt
+fio -filename=/data/data/8k-rand-r95w5 -direct=1 -ioengine=psync -rw=randrw -bs=8k -size=64M -rwmixread=95 -numjobs=1 -group_reporting -name=8k-rand-r95w5 | tee -a 8k-rand-r95w5.txt
 
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=randrw -bs=8k -size=64M -rwmixread=65 -numjobs=1 -group_reporting -name=8k-rand-r65w35 | tee -a 8k-rand-r65w35.txt
+fio -filename=/data/data/8k-rand-r65w35 -direct=1 -ioengine=psync -rw=randrw -bs=8k -size=64M -rwmixread=65 -numjobs=1 -group_reporting -name=8k-rand-r65w35 | tee -a 8k-rand-r65w35.txt
 
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=randrw -bs=8k -size=64M -rwmixread=50 -numjobs=1 -group_reporting -name=8k-rand-r50w50 | tee -a 8k-rand-r50w50.txt
+fio -filename=/data/data/8k-rand-r50w50 -direct=1 -ioengine=psync -rw=randrw -bs=8k -size=64M -rwmixread=50 -numjobs=1 -group_reporting -name=8k-rand-r50w50 | tee -a 8k-rand-r50w50.txt
 
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=randrw -bs=8k -size=64M -rwmixread=35 -numjobs=1 -group_reporting -name=8k-rand-r35w65 | tee -a 8k-rand-r35w65.txt
+fio -filename=/data/data/8k-rand-r35w65 -direct=1 -ioengine=psync -rw=randrw -bs=8k -size=64M -rwmixread=35 -numjobs=1 -group_reporting -name=8k-rand-r35w65 | tee -a 8k-rand-r35w65.txt
 
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=randrw -bs=8k -size=64M -rwmixread=5 -numjobs=1 -group_reporting -name=8k-rand-r5w95 | tee -a 8k-rand-r5w95.txt
+fio -filename=/data/data/8k-rand-r5w95 -direct=1 -ioengine=psync -rw=randrw -bs=8k -size=64M -rwmixread=5 -numjobs=1 -group_reporting -name=8k-rand-r5w95 | tee -a 8k-rand-r5w95.txt
 
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=randrw -bs=8k -size=64M -rwmixread=0 -numjobs=1 -group_reporting -name=8k-rand-r0w100 | tee -a 8k-rand-r0w100.txt
+fio -filename=/data/data/8k-rand-r0w100 -direct=1 -ioengine=psync -rw=randrw -bs=8k -size=64M -rwmixread=0 -numjobs=1 -group_reporting -name=8k-rand-r0w100 | tee -a 8k-rand-r0w100.txt

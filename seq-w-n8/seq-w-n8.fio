@@ -1,19 +1,19 @@
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=write -bs=256K -size=1G -numjobs=8 -group_reporting -name=256k-seq-w-n8 | tee -a 256k-seq-w-n8.txt
+fio -filename=/data/data/256k-seq-w-n8 -direct=1 -ioengine=psync -rw=write -bs=256K -size=1G -numjobs=8 -group_reporting -name=256k-seq-w-n8 | tee -a 256k-seq-w-n8.txt
 
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=write -bs=512K -size=1G -numjobs=8 -group_reporting -name=512k-seq-w-n8 | tee -a 512k-seq-w-n8.txt
+fio -filename=/data/data/512k-seq-w-n8 -direct=1 -ioengine=psync -rw=write -bs=512K -size=1G -numjobs=8 -group_reporting -name=512k-seq-w-n8 | tee -a 512k-seq-w-n8.txt
 
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=write -bs=1M -size=1G -numjobs=8 -group_reporting -name=1M-seq-w-n8 | tee -a 1M-seq-w-n8.txt
+fio -filename=/data/data/1M-seq-w-n8 -direct=1 -ioengine=psync -rw=write -bs=1M -size=1G -numjobs=8 -group_reporting -name=1M-seq-w-n8 | tee -a 1M-seq-w-n8.txt
 
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=write -bs=4M -size=1G -numjobs=8 -group_reporting -name=4M-seq-w-n8 | tee -a 4M-seq-w-n8.txt
+fio -filename=/data/data/4M-seq-w-n8 -direct=1 -ioengine=psync -rw=write -bs=4M -size=1G -numjobs=8 -group_reporting -name=4M-seq-w-n8 | tee -a 4M-seq-w-n8.txt
 
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=write -bs=16M -size=1G -numjobs=8 -group_reporting -name=16M-seq-w-n8 | tee -a 16M-seq-w-n8.txt
+fio -filename=/data/data/16M-seq-w-n8 -direct=1 -ioengine=psync -rw=write -bs=16M -size=1G -numjobs=8 -group_reporting -name=16M-seq-w-n8 | tee -a 16M-seq-w-n8.txt
 
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=write -bs=32M -size=1G -numjobs=8 -group_reporting -name=32M-seq-w-n8 | tee -a 32M-seq-w-n8.txt
+fio -filename=/data/data/32M-seq-w-n8 -direct=1 -ioengine=psync -rw=write -bs=32M -size=1G -numjobs=8 -group_reporting -name=32M-seq-w-n8 | tee -a 32M-seq-w-n8.txt
 
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=write -bs=64M -size=1G -numjobs=8 -group_reporting -name=64M-seq-w-n8 | tee -a 64M-seq-w-n8.txt
+fio -filename=/data/data/64M-seq-w-n8 -direct=1 -ioengine=psync -rw=write -bs=64M -size=1G -numjobs=8 -group_reporting -name=64M-seq-w-n8 | tee -a 64M-seq-w-n8.txt
 
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=write -bs=128M -size=1G -numjobs=8 -group_reporting -name=128M-seq-w-n8 | tee -a 128M-seq-w-n8.txt
+fio -filename=/data/data/128M-seq-w-n8 -direct=1 -ioengine=psync -rw=write -bs=128M -size=1G -numjobs=8 -group_reporting -name=128M-seq-w-n8 | tee -a 128M-seq-w-n8.txt
 
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=write -bs=256M -size=1G -numjobs=8 -group_reporting -name=256M-seq-w-n8 | tee -a 256M-seq-w-n8.txt
+fio -filename=/data/data/256M-seq-w-n8 -direct=1 -ioengine=psync -rw=write -bs=256M -size=1G -numjobs=8 -group_reporting -name=256M-seq-w-n8 | tee -a 256M-seq-w-n8.txt
 
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=write -bs=512M -size=1G -numjobs=8 -group_reporting -name=512M-seq-w-n8 | tee -a 512M-seq-w-n8.txt
+fio -filename=/data/data/512M-seq-w-n8 -direct=1 -ioengine=psync -rw=write -bs=512M -size=1G -numjobs=8 -group_reporting -name=512M-seq-w-n8 | tee -a 512M-seq-w-n8.txt

@@ -1,11 +1,11 @@
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=randread -bs=4K -size=64M -numjobs=8 -group_reporting -name=4k-rand-r-n8 | tee -a 4k-rand-r-n8.txt
+fio -filename=/data/data/4k-rand-r-n8 -direct=1 -ioengine=psync -rw=randread -bs=4K -size=64M -numjobs=8 -group_reporting -name=4k-rand-r-n8 | tee -a 4k-rand-r-n8.txt
 
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=randread -bs=8K -size=64M -numjobs=8 -group_reporting -name=8k-rand-r-n8 | tee -a 8k-rand-r-n8.txt
+fio -filename=/data/data/8k-rand-r-n8 -direct=1 -ioengine=psync -rw=randread -bs=8K -size=64M -numjobs=8 -group_reporting -name=8k-rand-r-n8 | tee -a 8k-rand-r-n8.txt
 
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=randread -bs=16K -size=64M -numjobs=8 -group_reporting -name=16k-rand-r-n8 | tee -a 16k-rand-r-n8.txt
+fio -filename=/data/data/16k-rand-r-n8 -direct=1 -ioengine=psync -rw=randread -bs=16K -size=64M -numjobs=8 -group_reporting -name=16k-rand-r-n8 | tee -a 16k-rand-r-n8.txt
 
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=randread -bs=32k -size=64M -numjobs=8 -group_reporting -name=32k-rand-r-n8 | tee -a 32k-rand-r-n8.txt
+fio -filename=/data/data/32k-rand-r-n8 -direct=1 -ioengine=psync -rw=randread -bs=32k -size=64M -numjobs=8 -group_reporting -name=32k-rand-r-n8 | tee -a 32k-rand-r-n8.txt
 
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=randread -bs=64k -size=64M -numjobs=8 -group_reporting -name=64k-rand-r-n8 | tee -a 64k-rand-r-n8.txt
+fio -filename=/data/data/64k-rand-r-n8 -direct=1 -ioengine=psync -rw=randread -bs=64k -size=64M -numjobs=8 -group_reporting -name=64k-rand-r-n8 | tee -a 64k-rand-r-n8.txt
 
-fio -filename=/data/data/fiotest -direct=1 -ioengine=psync -rw=randread -bs=128k -size=64M -numjobs=8 -group_reporting -name=128k-rand-r-n8 | tee -a 128k-rand-r-n8.txt
+fio -filename=/data/data/128k-rand-r-n8 -direct=1 -ioengine=psync -rw=randread -bs=128k -size=64M -numjobs=8 -group_reporting -name=128k-rand-r-n8 | tee -a 128k-rand-r-n8.txt
